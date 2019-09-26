@@ -7,4 +7,4 @@ my_list = [int(s) for s in my_split]        # this splits the string into its in
 
 result = sum(my_list)                       # this sums the numbers in the list
 
-print('My result is ', result)              # this prints the result
+print('My number was', my_split, ', summing the digits gave me', result)              # this prints the result
